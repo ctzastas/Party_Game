@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08f52e9335dc3e48a1ebe544d90a72f, type: 3}
+  m_Name: MainSceneData
+  m_EditorClassIdentifier: 
+  NextSceneData: {fileID: 0}
+  thisScenePlayerMovement: {fileID: 11400000, guid: 8b578a06e4789624c89b8cf1e9c6d262,
+    type: 2}
+  thisScnenePlayerInteractions: {fileID: 11400000, guid: dd892fe4745cc2741b73790f3f1774a6,
+    type: 2}
+  nextSceneName: 
+  playerSpawnPoints:
+  - {x: 0, y: 2, z: -20}
+  - {x: 0, y: 2, z: 20}
+  - {x: -20, y: 2, z: 0}
+  - {x: 20, y: 2, z: 0}
+  playerObjectToUse:
+  - {fileID: 2952299338862112263, guid: 06f7732dd57038941a8ed83f341c43e3, type: 3}
+  - {fileID: 7260307898816339637, guid: 3915cdf646b9fa14e9ec4aa0cf053ea8, type: 3}
+  - {fileID: 6106472096722508995, guid: 115d0c937d9ff3b43b1850521d311e8d, type: 3}
+  - {fileID: 111644275074892585, guid: 5d7c9b93b340bf046bdfe6380d7e9e83, type: 3}
+  levelCompleted: {fileID: 11400000, guid: 0f7d35a2356e1b341b71da55c311dddd, type: 2}
+  PlayerAudioClips: []

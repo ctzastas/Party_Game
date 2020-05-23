@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6f3689545d43459fab2bb4c15ca63, type: 3}
+  m_Name: IdleSceneData
+  m_EditorClassIdentifier: 
+  NextSceneData: {fileID: 0}
+  thisScenePlayerMovement: {fileID: 11400000, guid: 8b578a06e4789624c89b8cf1e9c6d262,
+    type: 2}
+  thisScnenePlayerInteractions: {fileID: 11400000, guid: 71e64f6b9318fec4898660ef7a339042,
+    type: 2}
+  nextSceneName: 
+  playerSpawnPoints: []
+  playerObjectToUse: []
+  levelCompleted: {fileID: 11400000, guid: fa628ca09a2fc244eb13f848296092da, type: 2}
+  PlayerAudioClips: []

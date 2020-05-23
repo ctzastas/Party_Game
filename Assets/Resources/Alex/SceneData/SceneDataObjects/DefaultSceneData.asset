@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c224f3168dbb2c64db5eb347170543c2, type: 3}
+  m_Name: DefaultSceneData
+  m_EditorClassIdentifier: 
+  NextSceneData: {fileID: 11400000, guid: d671df520b8121448b674f78d91da583, type: 2}
+  thisScenePlayerMovement: {fileID: 11400000, guid: 8b578a06e4789624c89b8cf1e9c6d262,
+    type: 2}
+  thisScnenePlayerInteractions: {fileID: 11400000, guid: 71e64f6b9318fec4898660ef7a339042,
+    type: 2}
+  nextSceneName: IdleScene
+  playerSpawnPoints:
+  - {x: 0, y: 1, z: -10}
+  - {x: 0, y: 1, z: 10}
+  - {x: -10, y: 1, z: 0}
+  - {x: 10, y: 1, z: 0}
+  playerObjectToUse:
+  - {fileID: 2952299338862112263, guid: 06f7732dd57038941a8ed83f341c43e3, type: 3}
+  - {fileID: 7260307898816339637, guid: 3915cdf646b9fa14e9ec4aa0cf053ea8, type: 3}
+  - {fileID: 6106472096722508995, guid: 115d0c937d9ff3b43b1850521d311e8d, type: 3}
+  - {fileID: 111644275074892585, guid: 5d7c9b93b340bf046bdfe6380d7e9e83, type: 3}
+  levelCompleted: {fileID: 11400000, guid: 3dd56b6d38a9ea14d97c540334db50dc, type: 2}
+  PlayerAudioClips:
+  - {fileID: 8300000, guid: 9fdec6da71c678344b11b327ccd5196a, type: 3}
+  - {fileID: 8300000, guid: 25e4cca280fb68e45ae08c2961d5b5dc, type: 3}
+  system: {fileID: 7124092956079200835, guid: b35532537a503244693c7145911d347a, type: 3}
